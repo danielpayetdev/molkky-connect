@@ -27,5 +27,8 @@
 			]
 		}
 	},
-	"postCreateCommand": "sudo npx playwright install-deps && npx playwright install"
+	"postCreateCommand": "sudo npx playwright install-deps && npx playwright install",
+	"features": {
+		"ghcr.io/devcontainers-extra/features/firebase-cli:2": {}
+	}
 }
